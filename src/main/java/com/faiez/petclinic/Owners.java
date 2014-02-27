@@ -28,7 +28,7 @@ public class Owners {
 	@Column(length=30)
 	private String lastname;
 
-	@OneToMany(targetEntity=com.faiez.petclinic.Pets.class, mappedBy="owners", cascade=CascadeType.MERGE)
+	@OneToMany(targetEntity=Pets.class, mappedBy="owners", cascade=CascadeType.MERGE)
 	private Set<Pets> pets = new HashSet<Pets>();
 
 	@Basic
