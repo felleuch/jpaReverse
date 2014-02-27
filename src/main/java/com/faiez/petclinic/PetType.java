@@ -20,7 +20,7 @@ public class PetType {
 	@Column(length=30)
 	private String name;
 
-	@OneToMany(targetEntity=com.faiez.petclinic.Pets.class, mappedBy="petType", cascade=CascadeType.MERGE)
+	@OneToMany(targetEntity=Pets.class, mappedBy="petType", cascade=CascadeType.MERGE)
 	private Set<Pets> pets = new HashSet<Pets>();
 
 
