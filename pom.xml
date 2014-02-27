@@ -47,7 +47,7 @@
                         <argument>-directory</argument><argument>src/main/java</argument>
                         <argument>-accessType</argument><argument>fields</argument>
                         <argument>-useGenericCollections</argument><argument>true</argument>
-                        <argument>-package</argument><argument>com.faiez.petclinic2</argument>
+                        <argument>-package</argument><argument>com.faiez.petclinic</argument>
                         <argument>-innerIdentityClasses</argument><argument>true</argument>
                         <argument>-useBuiltinIdentityClass</argument><argument>false</argument>
                         <argument>-primaryKeyOnJoin</argument><argument>true</argument>
